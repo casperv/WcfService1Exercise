@@ -22,6 +22,7 @@ namespace WcfService1Exercise
         double Minus(double a, double b);
 
         [OperationContract]
+
         string GetData(int value);
 
         [OperationContract]
