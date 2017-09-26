@@ -12,6 +12,15 @@ namespace WcfService1Exercise
     [ServiceContract]
     public interface IService1
     {
+        [OperationContract]
+        double Add(double a, double b);
+
+        [OperationContract]
+        double Divide(double a, double b);
+
+        [OperationContract]
+
+        double Minus(double a, double b);
 
         [OperationContract]
         string GetData(int value);
