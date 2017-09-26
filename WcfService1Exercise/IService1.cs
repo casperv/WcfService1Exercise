@@ -19,7 +19,6 @@ namespace WcfService1Exercise
         double Divide(double a, double b);
 
         [OperationContract]
-
         double Minus(double a, double b);
 
         [OperationContract]
